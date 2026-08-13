@@ -41,7 +41,7 @@ task.spawn(function()
 end)
 
 -- 3. LOAD YOUR CUSTOM UI
-local AscendUI = loadstring(game:HttpGet("PUT_YOUR_RAW_GITHUB_LINK_HERE"))()
+local AscendUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/kekijak142/fg/refs/heads/main/gfh"))()
 local Window = AscendUI:CreateWindow("Ascend Premium")
 
 --------------------------------------------------------------------------------
